@@ -1,7 +1,7 @@
 before_install export_texlive_install_tlnet
 
 export_texlive_install_tlnet() {
-    local tlnet_texjporg=http://texlive.texjp.org/
+    local tlnet_texjporg=https://texlive.texjp.org/
 
     ## auto-detect TeX Live VERSION_NAME
     local detected_version_name
